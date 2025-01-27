@@ -10,6 +10,12 @@ namespace Wk2Exs2
     {
         static void Main(string[] args)
         {
+            //Declaration
+            double length = 0;
+            double width = 0;
+            double perimeter = 0;
+            double area = 0;
+            
             //get the length of the rectangle
             Console.WriteLine("what is the length of the rectangle?");
             double length = Convert.ToDouble(Console.ReadLine());
